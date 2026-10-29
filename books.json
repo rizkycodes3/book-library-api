@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Belajar Pemrograman Python untuk Pemula",
+    "author": "Andi Pratama",
+    "year": 2023,
+    "genre": "Teknologi",
+    "price": 125000,
+    "in_stock": true
+  },
+  {
+    "id": 2,
+    "title": "Filosofi Teras",
+    "author": "Henry Manampiring",
+    "year": 2018,
+    "genre": "Pengembangan Diri",
+    "price": 98000,
+    "in_stock": true
+  },
+  {
+    "id": 3,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "year": 2018,
+    "genre": "Pengembangan Diri",
+    "price": 135000,
+    "in_stock": false
+  },
+  {
+    "id": 4,
+    "title": "Pulang",
+    "author": "Leila S. Chudori",
+    "year": 2012,
+    "genre": "Novel / Sejarah",
+    "price": 110000,
+    "in_stock": true
+  },
+  {
+    "id": 5,
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "genre": "Teknologi",
+    "price": 250000,
+    "in_stock": true
+  },
+  {
+    "id": 6,
+    "title": "Bumi Manusia",
+    "author": "Pramoedya Ananta Toer",
+    "year": 1980,
+    "genre": "Fiksi Sejarah",
+    "price": 105000,
+    "in_stock": true
+  },
+  {
+    "id": 7,
+    "title": "Sapiens: Riwayat Singkat Umat Manusia",
+    "author": "Yuval Noah Harari",
+    "year": 2014,
+    "genre": "Sejarah / Sains",
+    "price": 145000,
+    "in_stock": false
+  },
+  {
+    "id": 8,
+    "title": "Algoritma dan Struktur Data dengan JavaScript",
+    "author": "Rian Hidayat",
+    "year": 2024,
+    "genre": "Teknologi",
+    "price": 140000,
+    "in_stock": true
+  },
+  {
+    "id": 9,
+    "title": "Garis Waktu",
+    "author": "Fiersa Besari",
+    "year": 2016,
+    "genre": "Puisi / Fiksi",
+    "price": 85000,
+    "in_stock": true
+  },
+  {
+    "id": 10,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "year": 2020,
+    "genre": "Keuangan",
+    "price": 115000,
+    "in_stock": true
+  }
+]
