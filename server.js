@@ -80,6 +80,11 @@ app
 
       const reqId = parseInt(req.params.id);
       const bookId = books.find((x) => x.id === reqId);
+
+      if (!bookId) {
+        return res.status(404).json({ message: "Book not found!" });
+      }
+
       res.json(bookId);
     } catch (err) {
       res.status(500).json({ message: "Failed to read data" });
@@ -93,6 +98,11 @@ app
       const reqId = parseInt(req.params.id);
       const newData = req.body;
       const oldData = books.find((x) => x.id === reqId);
+
+      if (!oldData) {
+        return res.status(404).json({ message: "Book not found!" });
+      }
+
       const numYear = newData.year ? Number(newData.year) : oldData.year;
       const numPrice = newData.price ? Number(newData.price) : oldData.price;
 
